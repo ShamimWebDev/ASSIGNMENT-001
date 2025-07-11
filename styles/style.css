@@ -234,3 +234,67 @@ body {
   font-size: 12px;
   color: #777777;
 }
+
+/* contact-section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F8FF;
+    padding: 80px 100px;
+    gap: 40px;
+}
+.contact-left h2 {
+    font-size: 100px;
+}
+.contact-right {
+  flex: 1;
+  max-width: 500px;
+}
+.contact-right input[type="text"],
+.contact-right input[type="email"]
+ {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 24px;
+  background-color: white;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.contact-right textarea {
+  height: 100px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  background-color: white;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+
+.btn-primary {
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.contact-right label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333333;
+}
+
+/* footer-section */
