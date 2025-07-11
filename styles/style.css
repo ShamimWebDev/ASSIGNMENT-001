@@ -282,8 +282,7 @@ body {
   box-sizing: border-box;
 }
 
-
-.btn-primary {
+input[type="submit"] {
   background-color: #4e47ff;
   color: white;
   font-weight: bold;
@@ -292,6 +291,13 @@ body {
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
+
+}
+button:hover,
+input[type="submit"]:hover {
+  background-color: #1106f0; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
 }
 .contact-right label {
     display: block;
@@ -333,7 +339,6 @@ body {
   text-decoration: none;
   color: #8888aa;
   font-size: 15px;
-  transition: color 0.3s ease;
 }
 .footer-list ul li a:hover {
   color: #4e47ff;
